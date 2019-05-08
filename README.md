@@ -1,24 +1,45 @@
-# README
+## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an app I created to market my friend's book, which is called "Ethan the Raindrop."  It's delightful!
 
-Things you may want to cover:
+If you'd like to help, please feel free!
 
-* Ruby version
+* Ruby version - 2.4.5
 
-* System dependencies
+* Rails version - 5.2.3
 
-* Configuration
+## Getting Started
 
-* Database creation
+To run the Imagine Challenge on your local machine, navigate to the directory in which you would like the project to be located, then execute the following commands:
 
-* Database initialization
+```
+$ git clone
+git@github.com:le3ah/ethan_the_raindrop.git
+$ cd ethan_the_raindrop
+$ bundle
+$ rails g rspec:install
+$ rails db:create
+$ rails db:migrate
+```
 
-* How to run the test suite
+## Deployment
 
-* Services (job queues, cache servers, search engines, etc.)
+To view this app in development, execute the following command from the project directory: `rails s`. In a browser, visit `localhost:3000`, to view the application.
 
-* Deployment instructions
+The live view is deployed on Heroku at http://ethan-the-raindrop.herokuapp.com/.
 
-* ...
+Development & test environment gems I added include the following:
+* gem 'rspec-rails'
+* gem 'capybara'
+* gem 'launchy'
+* gem 'pry'
+* gem 'shoulda-matchers', '~> 3.1'
+* gem 'simplecov'
+* gem 'factory_bot_rails'
+
+## Testing
+
+I ran my tests using the command `rspec` and tracked my coverage through `SimpleCov`
+
+## Author
+[Leah K. Miller](https://github.com/le3ah)
