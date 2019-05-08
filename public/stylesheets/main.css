@@ -1,10 +1,13 @@
+.whole_page {
+  object-fit: cover;
+  height: 100%;
+}
 .welcome {
   background: url("/images/CoverCanvas.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: cover;
-  height: 100%;
+
 }
 
 .page_one {
@@ -12,16 +15,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: cover;
-  height: 100%;
+
 }
 .page_two {
   background: url("/images/MountainRiver.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  object-fit: cover;
-  height: 100%;
+
 }
 .teaser_page_one {
   box-sizing: content-box;
