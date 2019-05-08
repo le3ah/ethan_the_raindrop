@@ -14,4 +14,15 @@ describe 'As a visitor' do
 
     expect(page).to have_content("Ethan opened his eyes to a brand new day")
   end
+  it "links to the next page" do
+    visit '/story'
+
+    click_on "Next page"
+
+    expect(current_path).to eq('/next_page')
+
+    expect(page).to have_content("Somewhere over the big blue ocean,")
+    expect(page).to have_content("Ethan's brother was in a hurry,")
+    expect(page).to have_content("With help from Father Sun and Mother Moon,")
+  end
 end
