@@ -17,8 +17,9 @@ describe 'As a visitor' do
   it "links to the next page" do
     visit '/story'
 
-    click_on "Next page"
-
+    within '#next_button' do
+      click_on "Next page"
+    end 
     expect(current_path).to eq('/next_page')
 
     expect(page).to have_content("Somewhere over the big blue ocean,")

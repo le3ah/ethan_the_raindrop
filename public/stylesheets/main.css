@@ -2,6 +2,24 @@
   background: url("/images/CoverCanvas.jpg") no-repeat;
   background-size: cover;
 }
+
+.page_one {
+  background: url("/images/OceanCanvas.jpg") no-repeat;
+  background-size: cover;
+}
+.page_two {
+  background: url("/images/MountainRiver.jpg") no-repeat;
+  background-size: cover;
+}
+.teaser_page_one {
+  box-sizing: content-box;
+  width: 45%;
+  padding: 30px;
+  background-color: lemonchiffon;
+  border-radius: 20px;
+  border: 2px solid #008CBA;
+  height: 300px;
+}
 .teaser_welcome {
   box-sizing: content-box;
   width: 60%;
@@ -10,6 +28,14 @@
   border-radius: 20px;
   border: 2px solid #008CBA;
   height: 600px;
+}
+.teaser_page_two {
+  box-sizing: content-box;
+  width: 45%;
+  padding: 30px;
+  background-color: lemonchiffon;
+  border-radius: 20px;
+  border: 2px solid #008CBA;
 }
 .button {
   padding: 10px;
