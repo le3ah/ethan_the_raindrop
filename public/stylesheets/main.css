@@ -4,7 +4,11 @@
   height: auto;
   width: 20%;
 }
-
+.author {
+  background: url("/images/AlpineLake.jpg");
+  height: auto;
+  width: 20%;
+}
 .page_one {
   background: url("/images/OceanCanvas.jpg");
   height: auto;
@@ -16,7 +20,7 @@
   width: 20%;
 }
 
-.teaser_welcome {
+.teaser_welcome, .teaser_author {
   box-sizing: content-box;
   width: 600px;
   padding: 30px;
