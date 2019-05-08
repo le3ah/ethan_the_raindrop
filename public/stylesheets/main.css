@@ -1,28 +1,28 @@
-.whole_page {
-  object-fit: cover;
-  height: 100%;
-}
+
 .welcome {
   background: url("/images/CoverCanvas.jpg");
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-
+  background-position: center; */
+  height: 100%;
+  width: auto;
 }
 
 .page_one {
   background: url("/images/OceanCanvas.jpg");
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-
+  background-position: center; */
+  height: 100%;
+  width: auto;
 }
 .page_two {
   background: url("/images/MountainRiver.jpg");
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-
+  background-position: center; */
+  height: 100%;
+  width: auto;
 }
 .teaser_page_one {
   box-sizing: content-box;
