@@ -2,27 +2,26 @@
 .welcome {
   background: url("/images/CoverCanvas.jpg");
   height: auto;
-  width: 60%;
+  width: 50%;
 }
 
 .page_one {
   background: url("/images/OceanCanvas.jpg");
   height: auto;
-  width: 60%;
+  width: 50%;
 }
 .page_two {
   background: url("/images/MountainRiver.jpg");
   height: auto;
-  width: 60%;
+  width: 50%;
 }
 .teaser_page_one {
   box-sizing: content-box;
-  width: 45%;
+  width: 50%;
   padding: 30px;
   background-color: lemonchiffon;
   border-radius: 20px;
   border: 2px solid #008CBA;
-  height: 300px;
 }
 .teaser_welcome {
   box-sizing: content-box;
@@ -34,7 +33,7 @@
 }
 .teaser_page_two {
   box-sizing: content-box;
-  width: 45%;
+  width: 50%;
   padding: 30px;
   background-color: lemonchiffon;
   border-radius: 20px;
