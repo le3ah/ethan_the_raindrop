@@ -2,18 +2,18 @@
 .welcome {
   background: url("/images/CoverCanvas.jpg");
   height: auto;
-  width: 50%;
+  width: 40%;
 }
 
 .page_one {
   background: url("/images/OceanCanvas.jpg");
   height: auto;
-  width: 50%;
+  width: 40%;
 }
 .page_two {
   background: url("/images/MountainRiver.jpg");
   height: auto;
-  width: 50%;
+  width: 40%;
 }
 .teaser_page_one {
   box-sizing: content-box;
@@ -38,6 +38,9 @@
   background-color: lemonchiffon;
   border-radius: 20px;
   border: 2px solid #008CBA;
+}
+.button_welcome {
+  display: inline-block;
 }
 .button {
   padding: 10px;
