@@ -1,5 +1,6 @@
 <html>
 <body class="welcome">
+<div class="whole_page">
 <div class="teaser_welcome">
 
 <h1>Welcome to <i>Ethan the Raindrop</i> the website!</h1>
@@ -16,13 +17,16 @@
 </div>
 <br>
 <br>
-<button class="button" id="story_button">
-<%= link_to "See the start of Ethan's journey!", '/story' %></button>
-<button class="button" name="button">
-<a href="https://www.amazon.com/Ethan-Raindrop-Sean-Patrick-Guidera/dp/1514112965">Buy the book on Amazon!</a>
-</button>
-<button class="button" name="button">
-<a href="http://www.spgwrites.com/">See more from the Author!</a>
-</button>
+  <div class="button_welcome">
+  <button class="button" id="story_button">
+  <%= link_to "See the start of Ethan's journey!", '/story' %></button>
+  <button class="button" name="button">
+  <a href="https://www.amazon.com/Ethan-Raindrop-Sean-Patrick-Guidera/dp/1514112965">Buy the book on Amazon!</a>
+  </button>
+  <button class="button" name="button">
+  <a href="http://www.spgwrites.com/">See more from the Author!</a>
+  </button>
+  </div>
+</div>
 </body>
 </html>
