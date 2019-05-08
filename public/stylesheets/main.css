@@ -1,14 +1,14 @@
 .welcome {
-  background: url("/images/CoverCanvas.jpg") no-repeat;
+  background: url("/images/CoverCanvas.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .page_one {
-  background: url("/images/OceanCanvas.jpg") no-repeat;
+  background: url("/images/OceanCanvas.jpg") no-repeat center center;
   background-size: cover;
 }
 .page_two {
-  background: url("/images/MountainRiver.jpg") no-repeat;
+  background: url("/images/MountainRiver.jpg") no-repeat center center;
   background-size: cover;
 }
 .teaser_page_one {
