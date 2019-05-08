@@ -5,6 +5,12 @@ describe 'As a visitor' do
     visit root_path
     expect(page).to have_content("Welcome to Ethan the Raindrop the website!")
   end
+  it "links to author page" do
+    visit root_path
+    click_on "Sean Patrick Guidera"
+    expect(current_path).to eq('/author')
+    expect(page).to have_content("Sean Patrick Guidera graduated")
+  end
   it "links to the start of the story" do
     visit root_path
     within '#story_button' do
@@ -19,7 +25,7 @@ describe 'As a visitor' do
 
     within '#next_button' do
       click_on "Next page"
-    end 
+    end
     expect(current_path).to eq('/next_page')
 
     expect(page).to have_content("Somewhere over the big blue ocean,")
