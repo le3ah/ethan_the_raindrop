@@ -2,18 +2,18 @@
 .welcome {
   background: url("/images/CoverCanvas.jpg");
   height: auto;
-  width: 30%;
+  width: 20%;
 }
 
 .page_one {
   background: url("/images/OceanCanvas.jpg");
   height: auto;
-  width: 30%;
+  width: 20%;
 }
 .page_two {
   background: url("/images/MountainRiver.jpg");
   height: auto;
-  width: 30%;
+  width: 20%;
 }
 
 .teaser_welcome {
