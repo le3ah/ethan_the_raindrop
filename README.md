@@ -4,6 +4,8 @@ This is an app I created to market my friend's book, which is called "Ethan the 
 
 If you'd like to help, please feel free!
 
+![Ethan the Raindrop](Ethan.jpg)
+
 * Ruby version - 2.4.5
 
 * Rails version - 5.2.3
