@@ -4,4 +4,5 @@ root 'welcome#index'
 
 get '/story', to: 'story#show'
 get '/next_page', to: 'next_page#show'
+get '/author', to: 'author#show'
 end
