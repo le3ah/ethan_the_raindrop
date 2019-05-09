@@ -2,7 +2,7 @@
 
 This is an app I created to market my friend's book, which is called "Ethan the Raindrop."  It's delightful!
 
-If you'd like to help, please feel free!
+If you'd like to help, please feel free!  My styling is with both web and mobile in mind.
 
 ![Ethan the Raindrop](Ethan.jpg)
 
