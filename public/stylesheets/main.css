@@ -23,12 +23,20 @@
   background-color: lemonchiffon;
   border-radius: 20px;
   border: 2px solid #008CBA;
-  margin-left: 30px;
-  margin-top: 30px;
+  /* margin-left: 25%;
+  margin-top: 10%; */
 }
 
-.button_welcome {
+/* .button_welcome {
   display: inline-block;
+} */
+.btn-group {
+  justify-content: space-around;
+  /* margin-left: 15%;
+  margin-right: 15%; */
+  display: flex;
+  flex-direction: row;
+  flex: initial;
 }
 .button {
   padding: 10px;
@@ -39,7 +47,8 @@
   color: black;
   border: 2px solid #008CBA;
   white-space: nowrap;
-  margin-left: 30px;
+  /* margin-left: 20%; */
+  /* justify-content: flex-start; */
 }
 
 .button:hover {
@@ -54,3 +63,14 @@ h1 {
 p {
   font-size: 20px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". . . . . . . . . . . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . . . . . . . . . . ." ". Buttons Buttons Buttons Buttons Buttons Buttons Buttons Buttons Buttons Buttons ." ". . . . . . . . . . . .";
+}
+
+.Copy { grid-area: Copy; }
+
+.Buttons { grid-area: Buttons; }
