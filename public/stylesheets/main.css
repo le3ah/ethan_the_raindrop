@@ -2,48 +2,31 @@
 .welcome {
   background: url("/images/CoverCanvas.jpg");
   height: auto;
-  width: 20%;
 }
 .author {
   background: url("/images/AlpineLake.jpg");
   height: auto;
-  width: 20%;
 }
 .page_one {
   background: url("/images/Sunset.jpg");
   height: auto;
-  width: 20%;
 }
 .page_two {
   background: url("/images/MountainRiver.jpg");
   height: auto;
-  width: 20%;
 }
 
-.teaser_welcome, .teaser_author {
+.teaser_welcome, .teaser_author, .teaser_page_one, .teaser_page_two  {
   box-sizing: content-box;
   width: 600px;
   padding: 30px;
   background-color: lemonchiffon;
   border-radius: 20px;
   border: 2px solid #008CBA;
+  margin-left: 30px;
+  margin-top: 30px;
 }
-.teaser_page_one {
-  box-sizing: content-box;
-  width: 600px;
-  padding: 30px;
-  background-color: lemonchiffon;
-  border-radius: 20px;
-  border: 2px solid #008CBA;
-}
-.teaser_page_two {
-  box-sizing: content-box;
-  width: 600px;
-  padding: 30px;
-  background-color: lemonchiffon;
-  border-radius: 20px;
-  border: 2px solid #008CBA;
-}
+
 .button_welcome {
   display: inline-block;
 }
@@ -56,6 +39,8 @@
   color: black;
   border: 2px solid #008CBA;
   white-space: nowrap;
+  margin-left: 30px;
+  margin-bottom: 600px;
 }
 
 .button:hover {
