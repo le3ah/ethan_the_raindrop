@@ -12,7 +12,7 @@ If you'd like to help, please feel free!
 
 ## Getting Started
 
-To run the Imagine Challenge on your local machine, navigate to the directory in which you would like the project to be located, then execute the following commands:
+To run Ethan the Raindrop on your local machine, navigate to the directory in which you would like the project to be located, then execute the following commands:
 
 ```
 $ git clone
