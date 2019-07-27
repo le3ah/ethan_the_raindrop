@@ -64,13 +64,20 @@ p {
   font-size: 20px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: ". . . . . . . . . . . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . Copy Copy Copy Copy Copy Copy Copy Copy . ." ". . . . . . . . . . . ." ". Buttons Buttons Buttons Buttons Buttons Buttons Buttons Buttons Buttons Buttons ." ". . . . . . . . . . . .";
+/* .grid-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+} */
+
+.Copy {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+ }
+
+.Buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
-
-.Copy { grid-area: Copy; }
-
-.Buttons { grid-area: Buttons; }
