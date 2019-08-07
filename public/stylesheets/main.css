@@ -16,11 +16,6 @@
   background-size: cover;
 }
 
-.teaser {
-  margin: 10% auto 0;
-  width: 600px;
-}
-
 .teaser_page_one, .teaser_welcome, .teaser_author, .teaser_page_two {
   box-sizing: content-box;
   padding: 30px;
@@ -28,6 +23,11 @@
   border-radius: 20px;
   border: 2px solid #008CBA;
   
+}
+
+.teaser {
+  margin: 10% auto 0;
+  width: 600px;
 }
 
 /* .button_welcome {
